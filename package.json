@@ -1,7 +1,7 @@
 {
-  "name": "sass-loader",
-  "version": "3.1.2",
-  "description": "Sass loader for webpack",
+  "name": "sass-extra-loader",
+  "version": "3.1.3",
+  "description": "Sass loader for webpack (with extra stuff)",
   "main": "index.js",
   "scripts": {
     "create-spec": "node test/tools/runCreateSpec.js",
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jtangelder/sass-loader.git"
+    "url": "git://github.com/fahad19/sass-loader.git"
   },
   "author": "J. Tangelder",
   "license": "MIT",

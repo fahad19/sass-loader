@@ -2,10 +2,27 @@
 
 ## Install
 
-`npm install sass-loader node-sass webpack --save-dev`
+`npm install sass-extra-loader node-sass webpack --save-dev`
 
 The sass-loader requires [node-sass](https://github.com/sass/node-sass) and [webpack](https://github.com/webpack/webpack)
 as [`peerDependency`](https://docs.npmjs.com/files/package.json#peerdependencies). Thus you are able to specify the required versions accurately.
+
+---
+
+This is a fork of https://github.com/jtangelder/sass-loader.
+
+The only extra feature here is, it allows you to pass pre-defined sass data as options, much like node-sass:
+
+```js
+var config = {
+  module: {
+    // ...
+  },
+  sassLoader: {
+    data: '...' // inject SASS to load before anything else
+  }
+}
+```
 
 ---
 
